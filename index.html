@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>INDEX</title>
+    <link href="stile.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container" class="container">
+        <div class="content">
+            <div class="form_container">
+                <div id="login_form">
+                    <h2 class="title5"><center>REGISTRAZIONE</center></h2>
+
+                    <input type="text" id="register_username" placeholder="Nome" required>
+
+                    <input type="text" id="register_surname" placeholder="Cognome" required>
+
+                    <input type="date" id="register_dob" required>
+
+                    <input type="email" id="register_email" placeholder="Email" required>
+                    <label id="register_email_error" class="error_message"></label>
+                    <button type="button" class="verify_btn" id="verifyEmail">Verifly</button>
+
+                    <input type="password" id="register_password" placeholder="Password" required>
+                    <label id="register_password_error" class="error_message"></label>
+                    <button type="button" class="verify_btn" id="verifyPassword">Verifly</button>
+
+                    <input type="password" id="confirm_password" placeholder="Conferma Password" required>
+                    <button type="button" class="verify_btn" id="verifyPassword2">Verifly</button>
+
+                    <button id="register_btn">REGISTARTI</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
